@@ -1,21 +1,23 @@
-let nome = prompt("Escreva o nome do seu heroi: ");
-let xp = prompt("Escreva a quantidade de XP do seu heroi: ");
+//let nome = prompt("Escreva o nome do seu heroi: ");
+//let xp = prompt("Escreva a quantidade de XP do seu heroi: ");
 
+let nome = "Rafael o Magro";
+let xp = 1000000000000000;
 
 if (xp < 1000) {
-    alert("O heroi de nome " + nome + " esta no nivel de  ferro");
+    console.log("O heroi de nome " + nome + " esta no nivel de  ferro");
 } else if (xp > 1001 && xp < 2000) {
-    alert("O heroi de nome " + nome + " esta no nivel de  bronze");
+    console.log("O heroi de nome " + nome + " esta no nivel de  bronze");
 } else if (xp > 2001 && xp < 5000) {
-    alert("O heroi de nome " + nome + " esta no nivel de  prata");
+    console.log("O heroi de nome " + nome + " esta no nivel de  prata");
 } else if (xp > 5001 && xp < 7000) {
-    alert("O heroi de nome " + nome + " esta no nivel de  ouro");
+    console.log("O heroi de nome " + nome + " esta no nivel de  ouro");
 } else if (xp > 7001 && xp < 8000) {
-    alert("O heroi de nome " + nome + " esta no nivel de  platina");
+    console.log("O heroi de nome " + nome + " esta no nivel de  platina");
 } else if (xp > 8001 && xp < 9000) {
-    alert("O heroi de nome " + nome + " esta no nivel de  ascendente");
+    console.log("O heroi de nome " + nome + " esta no nivel de  ascendente");
 } else if (xp > 9001 && xp < 10000) {
-    alert("O heroi de nome " + nome + " esta no nivel de  imortal");
+    console.log("O heroi de nome " + nome + " esta no nivel de  imortal");
 } else {
-    alert("VO heroi de nome " + nome + " esta no nivel de  radiante");
+    console.log("VO heroi de nome " + nome + " esta no nivel de  radiante");
 }
